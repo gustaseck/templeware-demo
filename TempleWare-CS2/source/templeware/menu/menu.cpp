@@ -124,6 +124,18 @@ void Menu::render() {
                         ImGui::SliderFloat("FillOpacity", &Config::espFillOpacity, 0.0f, 1.0f);
                     }
                     ImGui::Checkbox("Health", &Config::showHealth);
+                    ImGui::Checkbox("Chams", &Config::enemyChams);
+                    ImGui::Checkbox("Chams xqz", &Config::enemyChamsInvisible);
+
+                    if (Config::enemyChams) {
+                        ImGui::ColorEdit4("Color vis", (float*)&Config::colVisualChamsIgnoreZ);
+                    }
+
+                    if (Config::enemyChamsInvisible) {
+                        ImGui::ColorEdit4("Color xqz", (float*)&Config::colVisualChams);
+                    }
+
+
                 }
             }
             ImGui::Separator();

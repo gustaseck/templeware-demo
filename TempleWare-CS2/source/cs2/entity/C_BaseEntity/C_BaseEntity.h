@@ -14,4 +14,25 @@ public:
 	SCHEMA_ADD_OFFSET(int, m_iHealth, 0x344);
 	SCHEMA_ADD_OFFSET(int, m_iTeamNum, 0x3E3);
 
+	bool IsBasePlayer()
+	{
+		SchemaClassInfoData_t* pClassInfo;
+		dump_class_info(&pClassInfo);
+		if (pClassInfo == nullptr)
+			return false;
+
+		return hash_32_fnv1a_const(pClassInfo->szName) == hash_32_fnv1a_const("C_CSPlayerPawn");
+	}
+
+	bool IsPlayerController()
+	{
+		SchemaClassInfoData_t* _class = nullptr;
+		dump_class_info(&_class);
+		if (!_class)
+			return false;
+
+		const uint32_t hash = hash_32_fnv1a_const(_class->szName);
+
+		return (hash == hash_32_fnv1a_const("CCSPlayerController"));
+	}
 };

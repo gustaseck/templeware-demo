@@ -1,63 +1,17 @@
-﻿  visuals.cpp
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(12,1): warning C4005: 'DXGI_STATUS_OCCLUDED': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(58885): message : consulte a definição anterior de 'DXGI_STATUS_OCCLUDED'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(13,1): warning C4005: 'DXGI_STATUS_CLIPPED': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(58894): message : consulte a definição anterior de 'DXGI_STATUS_CLIPPED'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(14,1): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(58903): message : consulte a definição anterior de 'DXGI_STATUS_NO_REDIRECTION'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(15,1): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(58912): message : consulte a definição anterior de 'DXGI_STATUS_NO_DESKTOP_ACCESS'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(16,1): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(58921): message : consulte a definição anterior de 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(17,1): warning C4005: 'DXGI_STATUS_MODE_CHANGED': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(58930): message : consulte a definição anterior de 'DXGI_STATUS_MODE_CHANGED'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(18,1): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(58939): message : consulte a definição anterior de 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(21,1): warning C4005: 'DXGI_ERROR_INVALID_CALL': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(58954): message : consulte a definição anterior de 'DXGI_ERROR_INVALID_CALL'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(22,1): warning C4005: 'DXGI_ERROR_NOT_FOUND': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(58963): message : consulte a definição anterior de 'DXGI_ERROR_NOT_FOUND'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(23,1): warning C4005: 'DXGI_ERROR_MORE_DATA': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(58972): message : consulte a definição anterior de 'DXGI_ERROR_MORE_DATA'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(24,1): warning C4005: 'DXGI_ERROR_UNSUPPORTED': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(58981): message : consulte a definição anterior de 'DXGI_ERROR_UNSUPPORTED'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(25,1): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(58990): message : consulte a definição anterior de 'DXGI_ERROR_DEVICE_REMOVED'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(26,1): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(58999): message : consulte a definição anterior de 'DXGI_ERROR_DEVICE_HUNG'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(27,1): warning C4005: 'DXGI_ERROR_DEVICE_RESET': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59009): message : consulte a definição anterior de 'DXGI_ERROR_DEVICE_RESET'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(28,1): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59018): message : consulte a definição anterior de 'DXGI_ERROR_WAS_STILL_DRAWING'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(29,1): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59028): message : consulte a definição anterior de 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(30,1): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59037): message : consulte a definição anterior de 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(31,1): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59047): message : consulte a definição anterior de 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(32,1): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59056): message : consulte a definição anterior de 'DXGI_ERROR_NONEXCLUSIVE'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(33,1): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59065): message : consulte a definição anterior de 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(34,1): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59075): message : consulte a definição anterior de 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dxgitype.h(35,1): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59084): message : consulte a definição anterior de 'DXGI_ERROR_REMOTE_OUTOFMEMORY'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d11.h(917,1): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59399): message : consulte a definição anterior de 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d11.h(918,1): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59408): message : consulte a definição anterior de 'D3D11_ERROR_FILE_NOT_FOUND'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d11.h(919,1): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59418): message : consulte a definição anterior de 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d11.h(920,1): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59427): message : consulte a definição anterior de 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d10.h(608,1): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59375): message : consulte a definição anterior de 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
-C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3d10.h(609,1): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': redefinição de macro
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\winerror.h(59384): message : consulte a definição anterior de 'D3D10_ERROR_FILE_NOT_FOUND'
+﻿  keyvalues.cpp
+  chams.cpp
+C:\Users\gusta\Desktop\trabalho\templeware-demo\TempleWare-CS2\source\cs2\datatypes\keyvalues\keyvalues.cpp(13,52): warning C4267: 'argumento': conversão de 'size_t' para 'int', possível perda de dados
+C:\Users\gusta\Desktop\trabalho\templeware-demo\TempleWare-CS2\source\templeware\features\chams\chams.cpp(157,58): warning C4244: '=': conversão de 'float' para 'uint8_t', possível perda de dados
+C:\Users\gusta\Desktop\trabalho\templeware-demo\TempleWare-CS2\source\templeware\features\chams\chams.cpp(158,58): warning C4244: '=': conversão de 'float' para 'uint8_t', possível perda de dados
+C:\Users\gusta\Desktop\trabalho\templeware-demo\TempleWare-CS2\source\templeware\features\chams\chams.cpp(159,58): warning C4244: '=': conversão de 'float' para 'uint8_t', possível perda de dados
+C:\Users\gusta\Desktop\trabalho\templeware-demo\TempleWare-CS2\source\templeware\features\chams\chams.cpp(160,58): warning C4244: '=': conversão de 'float' para 'uint8_t', possível perda de dados
+C:\Users\gusta\Desktop\trabalho\templeware-demo\TempleWare-CS2\source\templeware\features\chams\chams.cpp(166,47): warning C4244: '=': conversão de 'float' para 'uint8_t', possível perda de dados
+C:\Users\gusta\Desktop\trabalho\templeware-demo\TempleWare-CS2\source\templeware\features\chams\chams.cpp(167,47): warning C4244: '=': conversão de 'float' para 'uint8_t', possível perda de dados
+C:\Users\gusta\Desktop\trabalho\templeware-demo\TempleWare-CS2\source\templeware\features\chams\chams.cpp(168,47): warning C4244: '=': conversão de 'float' para 'uint8_t', possível perda de dados
+C:\Users\gusta\Desktop\trabalho\templeware-demo\TempleWare-CS2\source\templeware\features\chams\chams.cpp(169,47): warning C4244: '=': conversão de 'float' para 'uint8_t', possível perda de dados
   Gerando código
-  44 of 3590 functions ( 1.2%) were compiled, the rest were copied from previous compilation.
-    2 functions were new in current compilation
-    324 functions had inline decision re-evaluated but remain unchanged
+  8 of 3613 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    27 functions had inline decision re-evaluated but remain unchanged
   Finalizada a geração de código
-  TempleWare-CS2.vcxproj -> C:\Users\gusta\Documents\TempleWare-main\templeware-concept\x64\Release\1.dll
+  TempleWare-CS2.vcxproj -> C:\Users\gusta\Desktop\trabalho\templeware-demo\x64\Release\1.dll

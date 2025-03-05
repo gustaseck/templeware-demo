@@ -21,6 +21,9 @@ void TempleWare::init(HWND& window, ID3D11Device* pDevice, ID3D11DeviceContext* 
 	std::cout << "Initializing visuals...\n";
 	renderer.visuals.init();
 
+	std::cout << "Initializing materials...\n";
+	materials.init();
+
 	std::cout << "Initializing hooks...\n";
 	hooks.init();
 
